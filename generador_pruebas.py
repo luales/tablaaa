@@ -15,7 +15,7 @@ categorias_disponibles = ["Junior", "Senior", "Profesores"]
 
 try:
     while True:
-        for i in range(1, 16): 
+        for i in range(1, 40): 
             # Dejamos 10651 por defecto para el primer registro, aleatorio para el resto
             score = 10651 if i == 1 else random.randint(1000, 25000)
             
