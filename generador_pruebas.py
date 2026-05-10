@@ -4,7 +4,7 @@ import random
 from datetime import datetime
 import time
 
-CARPETA_DATOS = "datos_recibidos"
+CARPETA_DATOS = "datos_guardados"
 
 # Esta línea creará la carpeta solo si no existe, evitando el WinError 183
 os.makedirs(CARPETA_DATOS, exist_ok=True)
